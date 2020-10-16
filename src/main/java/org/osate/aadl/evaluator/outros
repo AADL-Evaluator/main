@@ -1,0 +1,31 @@
+[OK] - Avaliar a carga do processador: somar todas propriedades MIPS de todas as thread de um processo;
+[OK] - Avaliar o desempenho de um thread: tempo / periodic time;
+[OK] - verificar se o componente selecionado tem o Dev_Funcionality e comparar com os candidados;
+[OK] - fazer um cenário trocando dois equipamentos por um;
+[OK] - fazer um cenário trocando processos e/ou thread;
+[OK] - permitir alterar as propriedades da thread (clonar parar criar threads diferentes);
+[OK] - depois do bus, mostrar os processos, conexões do processo e 
+  threads do processo que estão relacionados com o device;
+
+[OK] - no barramento, mostrar três níveis: System Impl. > CPU > BUS;
+  (rename Bus Stage to Deployment First Stage)
+  (Compatibilidade de Interface dos Dispositivos)
+
+[  ] - Na primeira tela, agrupar os subcomponents;
+[  ] - Icones nas JTree;
+[  ] - Mudar os titulos e descrições das telas;
+[  ] - permitir que um componente seja adicionado:
+        colocar mais tela;
+        system seja duplicado e editado (evolução);
+[  ] - trocar um device por N devices;
+[  ] - avaliação;
+[  ] - Requisitos;
+
+----------------
+
+Resultado de uma avaliação:
+- impacto em um barramento
+- impacto em um processador
+- impacto em um memória
+- impacto no peso
+- impacto no ...

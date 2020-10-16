@@ -1,0 +1,29 @@
+Classe FUNCIONALIDADE: 
+1. Nivel de acurácia (vou criar a propertie); 
+2. compatibilidade de interface (pontuar o wrapper, portas e barramentos); 
+3. funcionalidades integradas (propriedade de funcionalidades indicando quantas são); 
+4. componentes de software integrados (propriedade que indica se tem algum software interno ao device que pode ser usado).
+
+
+Classe MODIFICABILIDADE: (PONTUAR) 
+BARRAMENTOS -> se usar o mesmo barramento, se não usar o mesmo barramento e não tem no processador (situação mais complicada e de pior/maior ponto), se não usar o mesmo barramento e o processador tem ( ponto por não ser o mesmo barramento). entendeu ai?.
+CONNECTIONS -> quais conexões foram afetadas? (SOMA TODAS AS CONEXOES AFETADAS). Precisa de novas conexões (SOMA se tiver de fazer isso).
+DATA        -> os dados sao iguais, os dados são diferentes ? quantos dados diferentes?
+PROCESS e THREADS -> quantas foram impactadas? 
+Software CONNECTIONS e BINDING (quantas foram impactadas?)
+
+
+
+classe DESEMPENHO: 
+1. peso
+2. potencia
+3. CPU
+4. uso do barramento
+
+
+
+obs: 
+1) classes FUNCIONALIDADE e MODIFICABILIDADE sao o cerne do trabalho;
+2) tudo que estamos trabalhando agora vamos PONTUAR;
+3) imagina assim, eu quero o cenário de menor peso! 
+   iremos ver que tambem deve ser o cenário que o device possui muitas funcionalidades integradas...

@@ -1,0 +1,72 @@
+O sistema será Wizard.
+
+Na primeira tela, deve-se selecionar o system o qual será analisado.
+
+1º) Tela para escolher a pasta do projeto;              OK
+2º) Tela para escolher o system;                        OK
+3º) Tela para fazer as evoluções;                       
+        mostrar o que foi feito;                        OK
+        identificar onde irá impactar no system;        OK
+        editar um system por completo                   OK
+        trocar um componente por outro                  
+4º) Fazer as combinações das evoluções;
+5º) Tela para mostrar os resultados;                    
+
+3.1) editar manualmente usando o Component Edit
+3.2) editar manualmente usando um Wizard
+3.3) gerar as evoluções automaticamente
+3.4) combinar dois ou mais evoluções
+
+
+
+
+Debitos
+-------
+[OK] Colocar a CPU no binding.
+[OK] Quando existir uma conexao sem candidato, pergunta se deseja selecionar um.
+[OK] Por que o adicionar e editar no BindingJDialog não estão funcionando?
+[OK] Por que o ITG nao está sendo associado ao I2C? Simples, ele é I2C_400k.
+[OK] Verificar se todos os funcionality foram selecionados.
+[OK] Mostrar a CPU conectada ao bus.
+
+
+
+Debitos no Automaticos
+----------------------
+[OK] Na primeira tela, o botão View não funciona;
+[OK] Na primeira tela, expandir o primeiro node;
+[OK] Na primeira tela, ajustar as colunas;
+
+[  ] Na segunda tela, deve-se verificar quais são os barramentos compatíveis;
+[  ] Na segunda tela, se o candidato for um barramento, deve-se ignorar a CPU;
+[OK] Na segunda tela, deve excluir os deletados (da view);
+[OK] Na segunda tela, se não for compatível, verificar se é wrapper resolve;
+[OK] Na segunda tela, se um incompativel pode se torna compativel com wrapper, fazer automaticamente quando tiver uma só opção;
+[OK] Na segunda tela, quando for passar para a próxima página, remover os bindings desnecessários;
+[  ] Na segunda tela, ;
+[  ] Na segunda tela, ;
+
+[OK] Na terceira tela, por que está criando apenas um componente com todos os candidatos?
+[  ] Na terceira tela, seria bom já apresentar os resultados?
+[OK] Na terceira tela, verificar o status do evolution;
+[OK] Na terceira tela, por que ele não está copiando o Evolution?
+[OK] Na terceira tela, se fizer com dois ou mais componentes, o que acontece?
+[OK] Na terceira tela, adicionar o wrapper no componente e a conexão se for necessário;
+[  ] Na terceira tela, porque o property está sendo listado como alterado quando não foi?           retirei da listagem dos alterados enquanto não resolve.
+[OK] Na terceira tela, "The subcomponentB null in the connection c23 = null is null.";
+[  ] Na terceira tela, ;
+
+
+
+Debitos Gerais
+----------------------
+[OK] Dividir o projeto em pequenos projetos;
+[  ] Salvar o projeto no Github;
+[OK] Fazer o Reqspec;
+[  ] Fazer avaliação;
+[  ] Filtrar um dado para mostrar apenas os componentes que atendem aquele;
+[  ] Pode alterar um requisito;
+[  ] ;
+[  ] ;
+[  ] ;
+[  ] ;
