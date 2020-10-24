@@ -18,7 +18,10 @@ public class Main
     
     public static void main( String args[] )
     {
+        System.out.println( "Reading logger configuration file..." );
         loggerInit();
+        
+        System.out.println( "Reading images..." );
         addAllUIAction();
         
         /* Set the Nimbus look and feel */
@@ -49,6 +52,8 @@ public class Main
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
+                System.out.println( "Starting the GUI..." );
+                
                 MainWizardJFrame frame = new MainWizardJFrame();
                 frame.setIconImages( loadImages() );
                 frame.setVisible( true );
